@@ -10,7 +10,7 @@ and saved to the hardisk in a .txt file
 # include<iostream>
 # include<conio.h>
 # include<string>
-# include <fstream>
+# include<fstream>
 # include<iomanip>          
 using namespace std;
 // Snode class contains all student data
@@ -24,7 +24,7 @@ public:
 	string Program;
 	Snode *next;
 	Snode *prev;
-	// construtor for the Snode class
+	// constructor for the Snode class
 	Snode()
 	{
 		Enrollment = "null";
